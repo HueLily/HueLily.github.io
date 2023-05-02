@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: non;
+  text-decoration: none;
   border: none;
   outline: none;
   scroll-behavior: smooth;
@@ -31,6 +31,7 @@ section{
   min-height: 100vh;
   padding: 10rem 9% 2rem;
 }
+
 .web {
   font-size: 2.5rem;
   color: var(--main-color);
