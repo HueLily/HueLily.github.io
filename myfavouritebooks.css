@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: non;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Popppins', sans-serif;
+}
+
+:root {
+  --bg-color: #66CDAA;
+  --second-bg-color: #48D1CC;
+  --text-color: #FFFFFF;
+  --main-color: #ffcf02;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg-color);
+  background-image: url('');
+  color: var(--text-color);
+}
+
+section{
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+.web {
+  font-size: 2.5rem;
+  color: var(--main-color);
+  font-weight: 600;
+  cursor: default;
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  height: auto;
+  object-position: top 0 left 7px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 9%;
+  background: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100; 
+}
+    
+.navbar a{
+  font-size: 1.7rem;
+  color: var(--text-color);
+  margin-left: 4rem;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: var(--main-color);
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
