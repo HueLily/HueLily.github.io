@@ -23,7 +23,6 @@ html{
 
 body {
   background: var(--bg-color);
-  background-image: url('');
   color: var(--text-color);
 }
 
@@ -78,4 +77,9 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('images/home.jpg');
+}
+
+.about{
+  background-image: url('images/about.jpg');
 }
