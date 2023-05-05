@@ -77,9 +77,9 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('images/home.jpg');
+  background-image: url('img/home.jpg');
 }
 
 .about{
-  background-image: url('images/about.jpg');
+  background-image: url('img/about.jpg');
 }
