@@ -395,3 +395,19 @@ section{
   background-size: 1470px;
   font-size: 1.7rem;
 }
+
+@import "https://fonts.googleapis.com/css2?
+family=Megrim&display=swap";
+	body{
+		overflow: hidden;
+		margin: 0;
+}
+#world{
+	font-family: Megrim, cursive;
+	font-size: 20vh;
+	position: absolute;
+	margin: 10;
+	/*bottom: 0;*/
+	color: fc0;
+	-webkit-text-stroke: 0.15vh #c0f;
+}
